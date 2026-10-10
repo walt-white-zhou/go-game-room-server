@@ -1,0 +1,26 @@
+# 编译二进制生成物
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# pprof 与测试数据
+*.out
+*.test
+cpu.pprof
+mem.pprof
+
+# 系统与 IDE 缓存
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 运行日志
+*.log
+log/
+mylog/

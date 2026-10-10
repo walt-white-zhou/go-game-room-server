@@ -1,0 +1,9 @@
+{
+  "Name": "GameRoomServer",
+  "Host": "0.0.0.0",
+  "TCPPort": 8999,
+  "MaxConn": 5000,
+  "WorkerPoolSize": 16,
+  "MaxWorkerTaskLen": 2048,
+  "LogIsolationLevel": 1
+}
